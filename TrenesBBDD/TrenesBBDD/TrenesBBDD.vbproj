@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{69AB93DA-D332-4C66-AC28-ED2C7D8F3487}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>TrenesBBDD.My.MyApplication</StartupObject>
+    <RootNamespace>TrenesBBDD</RootNamespace>
+    <AssemblyName>TrenesBBDD</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TrenesBBDD.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TrenesBBDD.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dominio\DataBaseBroker.vb" />
+    <Compile Include="Dominio\Price.vb" />
+    <Compile Include="Dominio\Product.vb" />
+    <Compile Include="Dominio\Train.vb" />
+    <Compile Include="Dominio\TrainType.vb" />
+    <Compile Include="Dominio\Trip.vb" />
+    <Compile Include="Persistencia\BrokerDB.vb" />
+    <Compile Include="Persistencia\PriceDAO.vb" />
+    <Compile Include="Persistencia\ProductDAO.vb" />
+    <Compile Include="Persistencia\TrainDAO.vb" />
+    <Compile Include="Persistencia\TrainTypeDAO.vb" />
+    <Compile Include="Persistencia\TripDAO.vb" />
+    <Compile Include="Presentación\Connection_UI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentación\Connection_UI.Designer.vb">
+      <DependentUpon>Connection_UI.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Presentación\Products_UI.Designer.vb">
+      <DependentUpon>Products_UI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentación\Products_UI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentación\Ranking_UI.Designer.vb">
+      <DependentUpon>Ranking_UI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentación\Ranking_UI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentación\Trips_UI.Designer.vb">
+      <DependentUpon>Trips_UI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentación\Trips_UI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentación\MainMenu.Designer.vb">
+      <DependentUpon>MainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentación\MainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentación\Trains_UI.Designer.vb">
+      <DependentUpon>Trains_UI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentación\Trains_UI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Presentación\Connection_UI.resx">
+      <DependentUpon>Connection_UI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentación\MainMenu.resx">
+      <DependentUpon>MainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentación\Products_UI.resx">
+      <DependentUpon>Products_UI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentación\Ranking_UI.resx">
+      <DependentUpon>Ranking_UI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentación\Trains_UI.resx">
+      <DependentUpon>Trains_UI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentación\Trips_UI.resx">
+      <DependentUpon>Trips_UI.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\examinar-concepto-archivos_1459-2303.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1877811.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f29e7f0d-c91d-4da8-8e43-cbb1b21c334d_200x200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trip fondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tren fondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tren fondo %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tren fondo %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\products fondo %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rankings fondo %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DataBase Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert database.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database inicio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database inicio 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo app.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo app 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo app 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo app 4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18778111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar producto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar producto png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminar pro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\retroceso.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ranking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\añadir tren.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar producto png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\añadir tren1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\añadir tren2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\añadir tren buena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminar png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo app 21.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

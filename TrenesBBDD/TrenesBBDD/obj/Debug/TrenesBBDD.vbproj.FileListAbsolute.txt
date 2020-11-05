@@ -1,0 +1,33 @@
+C:\Users\usuario\source\repos\TrenesBBDD\TrenesBBDD\bin\Debug\TrenesBBDD.exe.config
+C:\Users\usuario\source\repos\TrenesBBDD\TrenesBBDD\bin\Debug\TrenesBBDD.exe
+C:\Users\usuario\source\repos\TrenesBBDD\TrenesBBDD\bin\Debug\TrenesBBDD.pdb
+C:\Users\usuario\source\repos\TrenesBBDD\TrenesBBDD\bin\Debug\TrenesBBDD.xml
+C:\Users\usuario\source\repos\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.vbprojAssemblyReference.cache
+C:\Users\usuario\source\repos\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.Resources.resources
+C:\Users\usuario\source\repos\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.vbproj.GenerateResource.cache
+C:\Users\usuario\source\repos\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.exe
+C:\Users\usuario\source\repos\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.xml
+C:\Users\usuario\source\repos\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.pdb
+C:\Users\usuario\source\repos\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.Connection_UI.resources
+C:\Users\usuario\source\repos\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.MainMenu.resources
+C:\Users\usuario\source\repos\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.Products_UI.resources
+C:\Users\usuario\source\repos\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.Ranking_UI.resources
+C:\Users\usuario\source\repos\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.Trains_UI.resources
+C:\Users\usuario\source\repos\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.Trips_UI.resources
+C:\Users\José Carlos\Desktop\TrenesBBDD\TrenesBBDD\TrenesBBDD\bin\Debug\TrenesBBDD.exe.config
+C:\Users\José Carlos\Desktop\TrenesBBDD\TrenesBBDD\TrenesBBDD\bin\Debug\TrenesBBDD.exe
+C:\Users\José Carlos\Desktop\TrenesBBDD\TrenesBBDD\TrenesBBDD\bin\Debug\TrenesBBDD.pdb
+C:\Users\José Carlos\Desktop\TrenesBBDD\TrenesBBDD\TrenesBBDD\bin\Debug\TrenesBBDD.xml
+C:\Users\José Carlos\Desktop\TrenesBBDD\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.vbprojAssemblyReference.cache
+C:\Users\José Carlos\Desktop\TrenesBBDD\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.Connection_UI.resources
+C:\Users\José Carlos\Desktop\TrenesBBDD\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.Resources.resources
+C:\Users\José Carlos\Desktop\TrenesBBDD\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.MainMenu.resources
+C:\Users\José Carlos\Desktop\TrenesBBDD\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.Products_UI.resources
+C:\Users\José Carlos\Desktop\TrenesBBDD\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.Ranking_UI.resources
+C:\Users\José Carlos\Desktop\TrenesBBDD\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.Trains_UI.resources
+C:\Users\José Carlos\Desktop\TrenesBBDD\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.Trips_UI.resources
+C:\Users\José Carlos\Desktop\TrenesBBDD\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.vbproj.GenerateResource.cache
+C:\Users\José Carlos\Desktop\TrenesBBDD\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.vbproj.CoreCompileInputs.cache
+C:\Users\José Carlos\Desktop\TrenesBBDD\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.exe
+C:\Users\José Carlos\Desktop\TrenesBBDD\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.xml
+C:\Users\José Carlos\Desktop\TrenesBBDD\TrenesBBDD\TrenesBBDD\obj\Debug\TrenesBBDD.pdb
